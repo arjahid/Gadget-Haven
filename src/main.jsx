@@ -15,6 +15,12 @@ import Error from './components/Error/Error'
 import Home from './components/Home/Home'
 import Dashboard from './components/DashBoard/Dashboard'
 import ViewDetails from './components/ViewDetails/ViewDetails'
+import LaptopCategory from './components/LaptopCategory/LaptopCategory'
+import PhoneCategeory from './components/PhoneCategeory/PhoneCategeory'
+import AcceCatageory from './components/AcceCatageory/AcceCatageory'
+import SmartWatch from './components/SmartWatch/SmartWatch'
+import Iphn from './components/iphn/Iphn'
+// import PhoneCategeory from './components/PhoneCategeory/PhoneCategeory'
 
 const router = createBrowserRouter([
   {
@@ -30,6 +36,29 @@ const router = createBrowserRouter([
         path:'gadet/:product_id',
         element:<ViewDetails></ViewDetails>,
         loader:()=>fetch('/data.json')
+      },
+      {
+        path:'gadets/:category',
+        element:<LaptopCategory></LaptopCategory>,
+       
+      },
+      {
+        path:'phones/:category',
+        element:<PhoneCategeory></PhoneCategeory>,
+      
+        
+      },
+      {
+       path:'accessories/:category',
+       element:<AcceCatageory></AcceCatageory>
+      },
+      {
+        path:'smartWatch/:category',
+        errorElement:<SmartWatch></SmartWatch>
+      },
+      {
+        path:'iphone/:category',
+        element:<Iphn></Iphn>
       },
       {
         path:'statistic',
