@@ -14,6 +14,8 @@ import Statistic from './components/Statistic/Statistic'
 import Error from './components/Error/Error'
 import Home from './components/Home/Home'
 import Dashboard from './components/DashBoard/Dashboard'
+import ViewDetails from './components/ViewDetails/ViewDetails'
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -23,6 +25,11 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<Home></Home>
+      },
+      {
+        path:'gadet/:product_id',
+        element:<ViewDetails></ViewDetails>,
+        loader:()=>fetch('/data.json')
       },
       {
         path:'statistic',

@@ -1,0 +1,91 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Apple iPhone 15 Pro",
+      "product_image": "https://m.media-amazon.com/images/I/61Y30DpqRVL._AC_SL1500_.jpg",
+      "category": "Smartphone",
+      "price": 999.99,
+      "description": "The latest iPhone 15 Pro with A17 Bionic chip and improved camera system.",
+      "Specification": ["A17 Bionic Chip", "48MP Main Camera", "6.1-inch Super Retina XDR Display"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 2,
+      "product_title": "Samsung Galaxy S23 Ultra",
+      "product_image": "https://m.media-amazon.com/images/I/61Y30DpqRVL._AC_SL1500_.jpg",
+      "category": "Smartphone",
+      "price": 1199.99,
+      "description": "Samsung's most powerful smartphone with S Pen and 200MP camera.",
+      "Specification": ["Snapdragon 8 Gen 2", "200MP Camera", "6.8-inch Dynamic AMOLED 2X"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 3,
+      "product_title": "Sony WH-1000XM5 Wireless Headphones",
+      "product_image": "https://m.media-amazon.com/images/I/61Y30DpqRVL._AC_SL1500_.jpg",
+      "category": "Headphones",
+      "price": 399.99,
+      "description": "Industry-leading noise canceling wireless headphones.",
+      "Specification": ["Noise Cancellation", "Up to 30 Hours Battery Life", "Quick Charging"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 4,
+      "product_title": "MacBook Pro 16-inch M3",
+      "product_image": "https://m.media-amazon.com/images/I/61Y30DpqRVL._AC_SL1500_.jpg",
+      "category": "Laptop",
+      "price": 2499.99,
+      "description": "Apple's most powerful MacBook with M3 Max chip.",
+      "Specification": ["M3 Max Chip", "16-inch Liquid Retina XDR Display", "32GB RAM, 1TB SSD"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 5,
+      "product_title": "Logitech MX Master 3S Wireless Mouse",
+      "product_image": "https://m.media-amazon.com/images/I/61Y30DpqRVL._AC_SL1500_.jpg",
+      "category": "Accessories",
+      "price": 99.99,
+      "description": "Advanced wireless mouse for productivity and gaming.",
+      "Specification": ["Ultra-fast Scrolling", "Silent Clicks", "USB-C Charging"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 6,
+      "product_title": "Sony PlayStation 5",
+      "product_image": "https://m.media-amazon.com/images/I/61Y30DpqRVL._AC_SL1500_.jpg",
+      "category": "Gaming Console",
+      "price": 499.99,
+      "description": "Next-gen gaming console with immersive graphics and fast loading times.",
+      "Specification": ["8K Support", "Ray Tracing", "Ultra-fast SSD"],
+      "availability": false,
+      "rating": 4.8
+    },
+    {
+      "product_id": 7,
+      "product_title": "Bose QuietComfort Earbuds II",
+      "product_image": "https://m.media-amazon.com/images/I/61Y30DpqRVL._AC_SL1500_.jpg",
+      "category": "Earbuds",
+      "price": 279.99,
+      "description": "Premium noise-canceling earbuds for music lovers.",
+      "Specification": ["Active Noise Cancellation", "Sweat & Water Resistant", "Up to 24 Hours Battery,Specification"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 8,
+      "product_title": "GoPro HERO11 Black",
+      "product_image": "https://m.media-amazon.com/images/I/61Y30DpqRVL._AC_SL1500_.jpg",
+      "category": "Action Camera",
+      "price": 399.99,
+      "description": "The most advanced GoPro camera for action-packed adventures.",
+      "Specification": ["5.3K Video", "HyperSmooth 5.0", "Waterproof"],
+      "availability": true,
+      "rating": 4.8
+    }
+  ]
+  
