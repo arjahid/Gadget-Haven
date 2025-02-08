@@ -62,7 +62,7 @@ const router = createBrowserRouter([
         element:<Iphn></Iphn>
       },
       {
-        path:'ViewAddedCard',
+        path:'ViewAddedCard/:product_id',
         element:<ViewAddedCard></ViewAddedCard>
       },
       {

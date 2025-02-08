@@ -1,7 +1,9 @@
 import { NavLink, useLoaderData, useParams } from "react-router-dom";
 import ViewAddedCard from "../ViewAddedCard/ViewAddedCard";
+import { useState } from "react";
 
 const ViewDetails = () => {
+  const [produect,setProduct]=useState([])
   const data = useLoaderData();
   const { product_id } = useParams();
   const newData = data.find((item) => item.product_id === parseInt(product_id));
@@ -23,7 +25,10 @@ const ViewDetails = () => {
   
 
   const handleAddedToCart = (id) => {
-    console.log("Added to cart",id);
+    const product={
+     name:{product_title},
+    }
+    setProduct([...produect,product])
   }
 
   return (
@@ -92,7 +97,7 @@ const ViewDetails = () => {
             </div>
             <div className="pt-2">
               {" "}
-             <NavLink to="/ViewAddedCard"><button onClick={()=>handleAddedToCart} className="bg-green-500 text-white p-2 rounded-lg">Add to Cart</button></NavLink>
+             <NavLink to={`/ViewAddedCard/${id}`}><button onClick={()=>handleAddedToCart} className="bg-green-500 text-white p-2 rounded-lg">Add to Cart</button></NavLink>
             </div>
           </div>
         </div>
