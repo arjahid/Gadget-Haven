@@ -19,6 +19,11 @@ const ViewDetails = () => {
     rating,
     Specification,
   } = newData;
+  
+
+  const handleAddedToCart = () => {
+    console.log("Added to cart");
+  }
 
   return (
     <div>
@@ -86,7 +91,7 @@ const ViewDetails = () => {
             </div>
             <div className="pt-2">
               {" "}
-              <button className="btn btn-primary bg-purple-600 font-bold">Add to Card</button>
+              <button onClick={()=>handleAddedToCart} className="btn btn-primary bg-purple-600 font-bold">Add to Card</button>
             </div>
           </div>
         </div>

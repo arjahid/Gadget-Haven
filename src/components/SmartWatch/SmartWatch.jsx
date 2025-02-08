@@ -29,7 +29,7 @@ const SmartWatch = () => {
                          <p className="text-black font-semibold p-b2">Rating: {item.rating}</p> 
                         </div>
 
-                    </div>):<p className="text-4xl">No Smart Watch Found</p>
+                    </div>):<p className="text-4xl">No Smart Watch Found Here</p>
                 }
             </div>
         </div>
