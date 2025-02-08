@@ -20,6 +20,7 @@ import PhoneCategeory from './components/PhoneCategeory/PhoneCategeory'
 import AcceCatageory from './components/AcceCatageory/AcceCatageory'
 import SmartWatch from './components/SmartWatch/SmartWatch'
 import Iphn from './components/iphn/Iphn'
+import ViewAddedCard from './components/ViewAddedCard/ViewAddedCard'
 // import PhoneCategeory from './components/PhoneCategeory/PhoneCategeory'
 
 const router = createBrowserRouter([
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
       {
         path:'iphone/:category',
         element:<Iphn></Iphn>
+      },
+      {
+        path:'ViewAddedCard',
+        element:<ViewAddedCard></ViewAddedCard>
       },
       {
         path:'statistic',

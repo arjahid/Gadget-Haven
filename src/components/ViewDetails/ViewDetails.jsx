@@ -1,4 +1,5 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { NavLink, useLoaderData, useParams } from "react-router-dom";
+import ViewAddedCard from "../ViewAddedCard/ViewAddedCard";
 
 const ViewDetails = () => {
   const data = useLoaderData();
@@ -9,7 +10,7 @@ const ViewDetails = () => {
     return <div>Product not found</div>;
   }
 
-  const {
+  const {product_id: id,
     product_title,
     product_image,
     category,
@@ -21,8 +22,8 @@ const ViewDetails = () => {
   } = newData;
   
 
-  const handleAddedToCart = () => {
-    console.log("Added to cart");
+  const handleAddedToCart = (id) => {
+    console.log("Added to cart",id);
   }
 
   return (
@@ -91,11 +92,12 @@ const ViewDetails = () => {
             </div>
             <div className="pt-2">
               {" "}
-              <button onClick={()=>handleAddedToCart} className="btn btn-primary bg-purple-600 font-bold">Add to Card</button>
+             <NavLink to="/ViewAddedCard"><button onClick={()=>handleAddedToCart} className="bg-green-500 text-white p-2 rounded-lg">Add to Cart</button></NavLink>
             </div>
           </div>
         </div>
       </div>
+     
     </div>
   );
 };
